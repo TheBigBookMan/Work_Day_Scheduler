@@ -11,6 +11,13 @@ textarea{
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  border: greenyellow solid 3px;
+}
+
+.container {
+  border: black solid 3px;
+  display: flex;
+  flex-direction: column;
 }
 
 .jumbotron {
@@ -27,13 +34,16 @@ textarea{
 
 .time-block{
   text-align: center;
+  padding: 15px;
   border-radius: 15px;
+  border: red solid 3px;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
+  border: black solid 3px;
 }
 
 .hour {
