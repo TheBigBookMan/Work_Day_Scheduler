@@ -44,7 +44,10 @@ createRow = (timeString, timeInt) => {
 
     // save btn
     saveBtn.addClass('saveBtn');
-    saveBtn.text('Save'); //placeholder put logo in
+    var saveIcon = $('<span>');
+    saveIcon.addClass("material-symbols-outlined")
+    saveIcon.text('save')
+    saveBtn.append(saveIcon);
     saveBtn.css('width', '15%')
     rowContainer.append(saveBtn);
 
@@ -86,16 +89,6 @@ createRow = (timeString, timeInt) => {
 
 
 
-// INFO IS STORED IN LOCAL FILE AND IT COMES BACK UP ON THE SCREEN ONCE ITS REFRESHED
-
-
-// JQUERY AND THE SAVE BUTON IS PAIRED TO THE SIBLING OF THE INFO/TEXT BLOCK OF TIME
-
-
-// function that tajes in time and assigns it the past,present,future
-
-
-
 
 // This function takes in the hour and then assigns it the AM or PM period and calls the row creator function
 const amOrPm = function(hourInt) {
@@ -115,8 +108,14 @@ const amOrPm = function(hourInt) {
 
 // This for loop iterates through the hour array and calls the amOrPm function
 for (var i = 0; i < hourArray.length; i++) {
-    
     amOrPm(hourArray[i]);
-    
 };
 
+
+
+// INFO IS STORED IN LOCAL FILE AND IT COMES BACK UP ON THE SCREEN ONCE ITS REFRESHED
+
+
+
+
+// JQUERY AND THE SAVE BUTON IS PAIRED TO THE SIBLING OF THE INFO/TEXT BLOCK OF TIME

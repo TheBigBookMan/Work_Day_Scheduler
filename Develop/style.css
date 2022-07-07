@@ -27,6 +27,7 @@ textarea{
   border-bottom: 10px solid black;
 }
 
+
 .description{
   white-space: pre-wrap;
 }
@@ -73,7 +74,17 @@ textarea{
   color: white;
 }
 
-.saveBtn i:hover {
+.saveBtn span {
   font-size: 20px;
+}
+
+.saveBtn span:hover {
+  font-size: 30px;
   transition: all .3s ease-in-out;
+  color: blue;
+}
+
+.saveBtn:active {
+  background-color: aquamarine;
+  transition: all 0.1s ease-in;
 }
