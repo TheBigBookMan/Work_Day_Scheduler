@@ -15,7 +15,6 @@ textarea{
 }
 
 .container {
-  border: black solid 3px;
   display: flex;
   flex-direction: column;
 }
@@ -34,22 +33,21 @@ textarea{
 
 .time-block{
   text-align: center;
-  padding: 15px;
   border-radius: 15px;
-  border: red solid 3px;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
-  border: black solid 3px;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .past {
