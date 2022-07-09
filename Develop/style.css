@@ -11,7 +11,6 @@ textarea{
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
-  border: greenyellow solid 3px;
 }
 
 .container {
@@ -26,7 +25,6 @@ textarea{
   border-radius: 0;
   border-bottom: 10px solid black;
 }
-
 
 .description{
   white-space: pre-wrap;
@@ -80,11 +78,18 @@ textarea{
 
 .saveBtn span:hover {
   font-size: 30px;
-  transition: all .3s ease-in-out;
+  transition: all .1s ease-in-out;
+  color: white;
+}
+
+.saveBtn span:active {
+  font-size: 30px;
+  transition: all .1s ease-in-out;
   color: blue;
 }
 
 .saveBtn:active {
   background-color: aquamarine;
-  transition: all 0.1s ease-in;
+  transition: all 0s ease-in;
 }
+
