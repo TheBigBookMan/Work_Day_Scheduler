@@ -27,3 +27,4 @@ Within the project, the moment.js hour function would only get the current hour 
 
 
 ## Deployed URL
+https://thebigbookman.github.io/Work_Day_Scheduler/
