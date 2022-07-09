@@ -8,6 +8,7 @@ var textArea = $('<textarea>');
 var saveBtn = $('<button>');  
 // Variables to create functionality of the project with date/time
 var dateTime;
+// Function gets the current hour digit and stores it into a variable in 24 hour time
 var hour = moment().hour();
 var hourArray = [9, 10, 11, 12, 1, 2, 3, 4, 5];
 var finalTime;
