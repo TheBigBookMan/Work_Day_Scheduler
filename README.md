@@ -24,7 +24,7 @@ The save button is on the right and is connected to the textarea through local s
 Within the project, the moment.js hour function would only get the current hour in 24 hour format. So for this to work in a 12 hour format I needed to create an algorithm that would change the hour variable into a different one that would stop the past, present or future categories getting unexpectedly triggered by incorrect numbers from the 24 hour format.
 
 ## Screenshot
-
+![](./Style/Project_Screenshot.png)
 
 ## Deployed URL
 https://thebigbookman.github.io/Work_Day_Scheduler/
